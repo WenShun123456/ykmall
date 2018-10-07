@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/me/main",
+    "pages/mall/main",
+    "pages/cart/main",
+    "pages/myorder/main",
+    "pages/myaddress/main",
+    "pages/addaddress/main",
+    "pages/mydiscount/main",
+    "pages/mymsg/main",
+    "pages/feedback/main",
+    "pages/productdetail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EA5149",
+    "navigationBarTitleText": "云鲲商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath":"pages/mall/main",
+      "iconPath": "static/tabBar/home.png",
+      "selectedIconPath": "static/tabBar/fullhome.png",
+      "text": "商城"
+    }, {
+      "pagePath":"pages/cart/main",
+      "iconPath": "static/tabBar/cart.png",
+      "selectedIconPath": "static/tabBar/fullcart.png",
+      "text": "购物车"
+    },{
+      "pagePath":"pages/me/main",
+      "iconPath": "static/tabBar/me.png",
+      "selectedIconPath": "static/tabBar/fullme.png",
+      "text": "我的"
+    }]
+  }
+}
