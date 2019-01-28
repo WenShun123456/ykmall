@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
 		<Toast ref='toast'></Toast>
-		<image mode='scaleToFill' :src='productInfo.imageurl'></image>
+		<image class='detail-img' mode='scaleToFill' :src='productInfo.imageurl'></image>
 		<div class="content">
 			<div class="title">{{productInfo.title}}</div>
 			<div class="desc">{{productInfo.desc}}</div>
@@ -120,6 +120,9 @@
 	.container{
 		color: #999;
 		font-size: 14px;
+	}
+	.detail-img{
+		width: 750rpx;
 	}
 	.content{
 		padding: 20rpx;

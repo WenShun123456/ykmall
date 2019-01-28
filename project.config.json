@@ -11,6 +11,7 @@
 	"compileType": "miniprogram",
 	"appid": "wxf72212e9f810ac80",
 	"projectname": "ykmall",
+	"qcloudRoot": "./server",
 	"condition": {
 		"search": {
 			"current": -1,

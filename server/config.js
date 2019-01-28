@@ -1,14 +1,14 @@
 const CONF = {
 
-    serverHost: 'localhost',
-    tunnelServerUrl: '',
-    tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
-    // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
-    qcloudAppId: '1257701281',
-    qcloudSecretId: 'AKIDU983qRZBiOwSotx9UUNCD5zpOvKdAu0x',
-    qcloudSecretKey: 'HNI5lHgMwOjsqdMXErNk2HLE0hFYPMFV',
-    wxMessageToken: 'weixinmsgtoken',
-    networkTimeout: 30000,
+    // serverHost: 'localhost',
+    // tunnelServerUrl: '',
+    // tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
+    // // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
+    // qcloudAppId: '1257701281',
+    // qcloudSecretId: 'AKIDU983qRZBiOwSotx9UUNCD5zpOvKdAu0x',
+    // qcloudSecretKey: 'HNI5lHgMwOjsqdMXErNk2HLE0hFYPMFV',
+    // wxMessageToken: 'weixinmsgtoken',
+    // networkTimeout: 30000,
 
     port: '5757',
     rootPathname: '',
@@ -17,10 +17,10 @@ const CONF = {
     appId: 'wxf72212e9f810ac80',
 
     // 微信小程序 App Secret
-    appSecret: '',
+    appSecret: '4151c3316469792799fa2fee2632b6ed',
 
     // 是否使用腾讯云代理登录小程序
-    useQcloudLogin: true,
+    useQcloudLogin: false,
 
     /**
      * MySQL 配置，用来存储 session 和用户信息
@@ -32,7 +32,8 @@ const CONF = {
         port: 3306,
         user: 'root',
         db: 'cAuth',
-        pass: '123456',
+        pass: 'wxf72212e9f810ac80',
+        // pass: '123456',
         char: 'utf8mb4'
     },
 

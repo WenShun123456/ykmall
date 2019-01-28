@@ -4,7 +4,7 @@
 			<swiper autoplay="true" >
  				 <block v-for="(item,index) in imgUrl" :key='index'>
     				<swiper-item>
-     					 <image @click='bannerGo(index)' mode='center' :src="item"></image>
+     					 <image class='swiper-img' @click='bannerGo(index)' mode='aspectFill' :src="item"></image>
    					 </swiper-item>
  				 </block>
 			</swiper>
@@ -66,6 +66,9 @@
 	}
 </script>
 <style scoped>
+	.swiper-img{
+		width: 750rpx;
+	}
 	.prodList{
 		display: flex;
 		flex-wrap: wrap;

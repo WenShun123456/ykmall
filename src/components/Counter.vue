@@ -11,7 +11,6 @@
 		props:['count'],
 		mounted() {
 			this.count = 1;
-			console.log('init')
 		},
 		methods: {
 			add() {

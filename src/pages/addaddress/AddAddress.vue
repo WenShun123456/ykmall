@@ -100,6 +100,10 @@
 		justify-content: space-around;
 		align-items: center;
 	}
+	.f-li input{
+		display: inline-block;
+		width: 400rpx;
+	}
 	picker div{
 		width: 360rpx;
 	}

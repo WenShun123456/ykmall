@@ -30,23 +30,31 @@
 	    <div class="info">
 	    	<ul>
 	    		<li @click='goMyAddress'>
-	    			<image class='info-icon' mode='aspectFit' src='/static/me/address.png' ></image>
-	    			<span>地址管理</span>
+	    			<div class="info-left">
+	    				<image class='info-icon' mode='aspectFit' src='/static/me/address.png' ></image>
+	    				<span>地址管理</span>
+	    			</div>
 	    			<span class="go-r">></span>
 	    		</li>
 	    		<li @click='goMyDiscount'>
-	    			<image class='info-icon' mode='aspectFit' src='/static/me/mydiscount.png' ></image>
-	    			<span>优惠卡券</span>
+	    			<div class="info-left">
+	    				<image class='info-icon' mode='aspectFit' src='/static/me/mydiscount.png' ></image>
+	    				<span>优惠卡券</span>
+	    			</div>
 	    			<span class="go-r">></span>
 	    		</li>
 	    		<li @click='goMyMsg'>
-	    			<image class='info-icon' mode='aspectFit' src='/static/me/message.png' ></image>
-	    			<span>我的消息</span>
+	    			<div class="info-left">	
+	    				<image class='info-icon' mode='aspectFit' src='/static/me/message.png' ></image>
+	    				<span>我的消息</span>
+	    			</div>
 	    			<span class="go-r">></span>
 	    		</li>
 	    		<li @click='goFeedback'>
-	    			<image class='info-icon' mode='aspectFit' src='/static/me/feedback.png' ></image>
-	    			<span>意见反馈</span>
+	    			<div class="info-left">
+	    				<image class='info-icon' mode='aspectFit' src='/static/me/feedback.png' ></image>
+	    				<span>意见反馈</span>
+	    			</div>
 	    			<span class="go-r">></span>
 	    		</li>
 	    	</ul>
@@ -151,9 +159,14 @@
 	.info li{
 		height: 100rpx;
 		display: flex;
+		justify-content: space-between;
 		align-items: center;
 		font-size: 16px;
 		border-bottom: 1rpx solid #eee;
+	}
+	.info-left{
+		display: flex;
+		align-items: center;
 	}
 	.info-icon{
 		margin-right: 40rpx;
@@ -161,7 +174,6 @@
 		height: 60rpx;
 	}
 	.go-r{
-		margin-left: 400rpx;
 		color: #aaa;
 	}
 </style>
